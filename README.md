@@ -1,2 +1,3 @@
-# sids
-Code for my MSc dissertation
+# Siamese Neural Networks to Detect Infant Respiratory Movements in Video Sequences
+
+Globally, 19,200 children less than one year of age became victims of sudden infant death syndrome (SIDS). Although the exact cause of SIDS is unknown, a number of preventive measures exist. One such measure is to detect infant respiratory movements in video sequences. However, detecting changes in night-vision video sequences using standard pixel-comparison methods is a challenging problem, because infrared lights and dark surroundings create noise that are entangled with the semantic changes. I propose an approach to compare similar- ity metrics between a pair of features generated from the convolutional layers of a siamese neural network. I demonstrate that the accuracy of the network depends on the choice of convolutional neural network model, image size, frame frequency and other factors.
